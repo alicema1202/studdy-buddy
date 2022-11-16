@@ -1,0 +1,166 @@
+/* COGS3 studyBuddy specific styles go here. */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1::selection, h3::selection, p::selection {
+    background: rgba(201, 101, 101, 0.537);
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+p {
+    color: gray;
+}
+#title {
+    background-color: rgb(78, 94, 107);
+    padding-bottom: 50px;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+/*navigation bar*/
+.navbar {
+    padding-left: 0;
+}
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.navbar {
+    padding-bottom: 4rem;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+.download-button {
+    margin: 5% 3% 0 0;
+    border-radius: 10px;
+    min-width: 150px;
+}
+.download-button:hover {
+    background-color: rgb(201, 101, 101);
+    border-color: rgb(201, 101, 101);
+}
+.google:hover {
+    color: white;
+}
+/*Title Image*/
+.title-image {
+    width: 60%;
+    transform: rotate(10deg);
+    position: absolute;
+}
+/*Features Section*/
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+.feature-box {
+    padding: 5%;
+}
+.icon {
+    color: rgb(201, 101, 101);
+    margin: 1rem;
+}
+.icon:hover {
+    color: rgb(78, 94, 107);
+}
+/*Carousel*/
+.test-press {
+    background-color: rgb(78, 94, 107);
+}
+#testimonials {
+    text-align: center;
+    color: white;
+}
+.testimonial-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+#press {
+    text-align: center;
+}
+.press-logo {
+    margin: -20px 20px 50px;
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 15px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+.card-title {
+    color: black;
+}
+/*Pricing*/
+#pricing {
+    padding: 100px;
+}
+.pricing-header {
+    color: #000;
+}
+.headline {
+    margin-bottom: 30px;
+}
+.sign-up {
+    background-color: rgb(78, 94, 107);
+}
+.card-header {
+    background-color: rgba(78, 94, 107, 0.056);
+}
+#cta {
+    background-color: rgb(78, 94, 107);
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0 20px;
+}
+/* Footer Section */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer .fa-brands, .fa-solid {
+    margin: 20px 10px;
+    cursor: pointer;
+}
+/* Media Queries */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 20px;
+    }
+}
